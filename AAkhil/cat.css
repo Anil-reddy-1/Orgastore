@@ -1,0 +1,141 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #6b9080;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo-placeholder {
+  width: 120px;
+  height: 40px;
+  background-color: #a4c3b2;
+  border-radius: 6px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+
+.category-section {
+  padding: 3rem 2rem;
+  background-color: #f6fff8;
+  text-align: center;
+}
+
+.category-section h2 {
+  font-size: 2rem;
+  color: #6b9080;
+  margin-bottom: 2rem;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.category-card {
+  background-color: #cce3de;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+}
+
+.category-card h3 {
+  margin-top: 1rem;
+  color: #355c4b;
+}
+
+.category-card .img {
+  width: 100%;
+  height: 120px;
+  background-color: #eaf4f4;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: #6b9080;
+}
+
+.search-filter {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem auto;
+  max-width: 600px;
+  padding: 0 1rem;
+}
+
+.search-filter input,
+.search-filter select {
+  padding: 0.75rem 1rem;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 8px;
+  border: 1px solid #cce3de;
+  width: 100%;
+  max-width: 300px;
+}
+
+.top-selling {
+  padding: 3rem 2rem;
+  background-color: #f6fff8;
+  text-align: center;
+}
+
+.top-selling h2 {
+  color: #6b9080;
+  margin-bottom: 2rem;
+}
+
+.how-to-shop {
+  padding: 3rem 2rem;
+  background-color: #eaf4f4;
+  text-align: center;
+}
+
+.how-to-shop h2 {
+  color: #6b9080;
+  margin-bottom: 2rem;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.step {
+  background-color: #cce3de;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.step i {
+  font-size: 2rem;
+  color: #355c4b;
+  margin-bottom: 0.5rem;
+}

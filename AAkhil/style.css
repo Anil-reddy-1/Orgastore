@@ -1,0 +1,165 @@
+/* Font and Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f6fff8;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #6b9080;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo-placeholder {
+  width: 120px;
+  height: 40px;
+  background-color: #a4c3b2;
+  border-radius: 6px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2rem;
+  background-color: #eaf4f4;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #6b9080;
+}
+
+.hero p {
+  margin-top: 1rem;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #6b9080;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #557f6d;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  background-color: #cce3de;
+  border-radius: 20px;
+  margin-top: 2rem;
+}
+
+.featured-categories,
+.why-choose-us,
+.testimonials {
+  padding: 3rem 2rem;
+  background-color: #f6fff8;
+  text-align: center;
+}
+
+.featured-categories h2,
+.why-choose-us h2,
+.testimonials h2 {
+  color: #6b9080;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.category-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.category-card {
+  background-color: #eaf4f4;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.category-card .icon {
+  font-size: 2rem;
+  color: #6b9080;
+  margin-bottom: 0.5rem;
+}
+
+.why-choose-us .reasons {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.reason {
+  background-color: #cce3de;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.reason i {
+  font-size: 2rem;
+  color: #355c4b;
+  margin-bottom: 0.5rem;
+}
+
+.testimonial-cards {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 2rem;
+}
+
+.testimonial {
+  background-color: #a4c3b2;
+  padding: 1.5rem;
+  color: white;
+  border-radius: 10px;
+  font-style: italic;
+}

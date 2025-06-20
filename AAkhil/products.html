@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Orgastore - Products</title>
+  <link rel="stylesheet" href="pro.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo-placeholder"></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="categories.html">Categories</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="product-section">
+    <h2>Products in Selected Category</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="img"></div>
+        <h3>Tomatoes</h3>
+        <p>₹30 / kg</p>
+        <i class="fas fa-shopping-cart cart-icon"></i>
+      </div>
+      <div class="product-card">
+        <div class="img"></div>
+        <h3>Apples</h3>
+        <p>₹120 / kg</p>
+        <i class="fas fa-shopping-cart cart-icon"></i>
+      </div>
+      <div class="product-card">
+        <div class="img"></div>
+        <h3>Carrots</h3>
+        <p>₹45 / kg</p>
+        <i class="fas fa-shopping-cart cart-icon"></i>
+      </div>
+      <div class="product-card">
+        <div class="img"></div>
+        <h3>Lemons</h3>
+        <p>₹50 / kg</p>
+        <i class="fas fa-shopping-cart cart-icon"></i>
+      </div>
+    </div>
+  </section>
+  <section class="sort-filter">
+  <div class="sort-options">
+    <label for="sort">Sort By:</label>
+    <select id="sort">
+      <option value="freshness">Freshness</option>
+      <option value="price-low">Price: Low to High</option>
+      <option value="price-high">Price: High to Low</option>
+    </select>
+  </div>
+
+  <div class="filter-options">
+    <label for="availability">Filter:</label>
+    <select id="availability">
+      <option value="all">All</option>
+      <option value="in-stock">In Stock</option>
+      <option value="organic">Organic Only</option>
+    </select>
+  </div>
+</section>
+<section class="product-week">
+  <h2>🌟 Product of the Week</h2>
+  <div class="product-highlight">
+    <div class="img"></div>
+    <div class="product-info">
+      <h3>Fresh Organic Tomatoes</h3>
+      <p>Hand-picked, juicy, and pesticide-free. Straight from our partnered farms.</p>
+      <button class="btn">Buy Now</button>
+    </div>
+  </div>
+</section>
+<section class="recommended">
+  <h2>Recommended for You</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <div class="img"></div>
+      <h4>Carrots</h4>
+    </div>
+    <div class="product-card">
+      <div class="img"></div>
+      <h4>Bananas</h4>
+    </div>
+    <div class="product-card">
+      <div class="img"></div>
+      <h4>Spinach</h4>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
