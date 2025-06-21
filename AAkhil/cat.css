@@ -12,6 +12,10 @@
 .logo-placeholder {
   width: 120px;
   height: 40px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #a4c3b2;
   border-radius: 6px;
 }
@@ -68,7 +72,7 @@
   color: #355c4b;
 }
 
-.category-card .img {
+.category-card img {
   width: 100%;
   height: 120px;
   background-color: #eaf4f4;

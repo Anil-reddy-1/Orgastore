@@ -12,9 +12,14 @@
 .logo-placeholder {
   width: 120px;
   height: 40px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #a4c3b2;
   border-radius: 6px;
 }
+
 
 .nav-links {
   list-style: none;
